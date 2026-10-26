@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlCalidadQR.Pages.MenuPrincipal" Title="Mi espacio" BackgroundColor="{StaticResource FondoCalidad}">
+    <ScrollView>
+        <VerticalStackLayout Padding="22" Spacing="20" MaximumWidthRequest="1000">
+            <Border BackgroundColor="{StaticResource CabeceraCalidad}" StrokeThickness="0" StrokeShape="RoundRectangle 22" Padding="24">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="CONTROL DE CALIDAD QR" FontSize="11" CharacterSpacing="2" FontAttributes="Bold" TextColor="{StaticResource AcentoClaroCalidad}"/>
+                    <Label Text="Tu espacio de trabajo" FontSize="27" FontAttributes="Bold" TextColor="White"/>
+                    <Label x:Name="BienvenidaLabel" FontSize="15" TextColor="{StaticResource TextoSobreOscuroCalidad}"/>
+                    <Button x:Name="NuevoControlButton" Text="+  Iniciar un control" CommandParameter="nuevo" Clicked="OnAbrirApartadoClicked" BackgroundColor="{StaticResource Primary}" TextColor="White" FontAttributes="Bold" CornerRadius="13" MinimumHeightRequest="48" Margin="0,8,0,0"/>
+                </VerticalStackLayout>
+            </Border>
+            <Label Text="¿Qué necesitas hacer?" FontSize="20" FontAttributes="Bold" TextColor="{StaticResource CabeceraCalidad}"/>
+            <Grid x:Name="OpcionesGrid" ColumnSpacing="14" RowSpacing="14" SizeChanged="OnOpcionesSizeChanged"/>
+            <Button Text="Cerrar sesión" Clicked="OnCerrarSesionClicked" BackgroundColor="Transparent" TextColor="{StaticResource TextoSecundarioCalidad}" BorderColor="{StaticResource BordeCalidad}" BorderWidth="1" CornerRadius="14" MinimumHeightRequest="48"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

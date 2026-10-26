@@ -1,0 +1,166 @@
+<svg width="640pt" height="1111pt"
+ viewBox="0.00 0.00 640.00 1111.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 1089.54)">
+<title>flujo</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-1089.54 618.52,-1089.54 618.52,21.6 -21.6,21.6"/>
+<!-- i -->
+<g id="node1" class="node">
+<title>i</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="452.95" cy="-1045.54" rx="111.72" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-1041.94" font-family="Arial" font-size="12.00" fill="white">Preparar equipo servidor</text>
+</g>
+<!-- sql -->
+<g id="node2" class="node">
+<title>sql</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M520.95,-982.13C520.95,-982.13 384.96,-982.13 384.96,-982.13 378.96,-982.13 372.96,-976.13 372.96,-970.13 372.96,-970.13 372.96,-948.05 372.96,-948.05 372.96,-942.05 378.96,-936.05 384.96,-936.05 384.96,-936.05 520.95,-936.05 520.95,-936.05 526.95,-936.05 532.95,-942.05 532.95,-948.05 532.95,-948.05 532.95,-970.13 532.95,-970.13 532.95,-976.13 526.95,-982.13 520.95,-982.13"/>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-962.69" font-family="Arial" font-size="12.00" fill="#30203d">Configurar instancia SQL</text>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-948.29" font-family="Arial" font-size="12.00" fill="#30203d">y cadena de conexión</text>
+</g>
+<!-- i&#45;&gt;sql -->
+<g id="edge1" class="edge">
+<title>i&#45;&gt;sql</title>
+<path fill="none" stroke="#79569a" d="M452.95,-1022.79C452.95,-1013.07 452.95,-1001.45 452.95,-990.86"/>
+<polygon fill="#79569a" stroke="#79569a" points="455.4,-991.16 452.95,-984.16 450.5,-991.16 455.4,-991.16"/>
+</g>
+<!-- init -->
+<g id="node3" class="node">
+<title>init</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M527.62,-895.05C527.62,-895.05 378.29,-895.05 378.29,-895.05 372.29,-895.05 366.29,-889.05 366.29,-883.05 366.29,-883.05 366.29,-860.97 366.29,-860.97 366.29,-854.97 372.29,-848.97 378.29,-848.97 378.29,-848.97 527.62,-848.97 527.62,-848.97 533.62,-848.97 539.62,-854.97 539.62,-860.97 539.62,-860.97 539.62,-883.05 539.62,-883.05 539.62,-889.05 533.62,-895.05 527.62,-895.05"/>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-875.61" font-family="Arial" font-size="12.00" fill="#30203d">Ejecutar &#45;&#45;inicializar</text>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-861.21" font-family="Arial" font-size="12.00" fill="#30203d">Crear o actualizar esquema</text>
+</g>
+<!-- sql&#45;&gt;init -->
+<g id="edge2" class="edge">
+<title>sql&#45;&gt;init</title>
+<path fill="none" stroke="#79569a" d="M452.95,-935.74C452.95,-925.95 452.95,-914.3 452.95,-903.72"/>
+<polygon fill="#79569a" stroke="#79569a" points="455.4,-904.03 452.95,-897.03 450.5,-904.03 455.4,-904.03"/>
+</g>
+<!-- cuenta -->
+<g id="node4" class="node">
+<title>cuenta</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M544.96,-807.97C544.96,-807.97 360.95,-807.97 360.95,-807.97 354.95,-807.97 348.95,-801.97 348.95,-795.97 348.95,-795.97 348.95,-773.89 348.95,-773.89 348.95,-767.89 354.95,-761.89 360.95,-761.89 360.95,-761.89 544.96,-761.89 544.96,-761.89 550.96,-761.89 556.96,-767.89 556.96,-773.89 556.96,-773.89 556.96,-795.97 556.96,-795.97 556.96,-801.97 550.96,-807.97 544.96,-807.97"/>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-788.53" font-family="Arial" font-size="12.00" fill="#30203d">Crear cuenta si falta</text>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-774.13" font-family="Arial" font-size="12.00" fill="#30203d">Asignar administrador por consola</text>
+</g>
+<!-- init&#45;&gt;cuenta -->
+<g id="edge3" class="edge">
+<title>init&#45;&gt;cuenta</title>
+<path fill="none" stroke="#79569a" d="M452.95,-848.66C452.95,-838.87 452.95,-827.22 452.95,-816.64"/>
+<polygon fill="#79569a" stroke="#79569a" points="455.4,-816.95 452.95,-809.95 450.5,-816.95 455.4,-816.95"/>
+</g>
+<!-- migrar -->
+<g id="node5" class="node">
+<title>migrar</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="452.95,-720.89 308.99,-674.81 452.95,-628.73 596.92,-674.81 452.95,-720.89"/>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-678.41" font-family="Arial" font-size="12.00" fill="#30203d">¿Hay registros locales</text>
+<text xml:space="preserve" text-anchor="middle" x="452.95" y="-664.01" font-family="Arial" font-size="12.00" fill="#30203d">que importar?</text>
+</g>
+<!-- cuenta&#45;&gt;migrar -->
+<g id="edge4" class="edge">
+<title>cuenta&#45;&gt;migrar</title>
+<path fill="none" stroke="#79569a" d="M452.95,-761.53C452.95,-752.17 452.95,-740.86 452.95,-729.57"/>
+<polygon fill="#79569a" stroke="#79569a" points="455.4,-729.89 452.95,-722.89 450.5,-729.89 455.4,-729.89"/>
+</g>
+<!-- export -->
+<g id="node6" class="node">
+<title>export</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M442.28,-576.73C442.28,-576.73 305.63,-576.73 305.63,-576.73 299.63,-576.73 293.63,-570.73 293.63,-564.73 293.63,-564.73 293.63,-542.65 293.63,-542.65 293.63,-536.65 299.63,-530.65 305.63,-530.65 305.63,-530.65 442.28,-530.65 442.28,-530.65 448.28,-530.65 454.28,-536.65 454.28,-542.65 454.28,-542.65 454.28,-564.73 454.28,-564.73 454.28,-570.73 448.28,-576.73 442.28,-576.73"/>
+<text xml:space="preserve" text-anchor="middle" x="373.95" y="-557.29" font-family="Arial" font-size="12.00" fill="#30203d">Exportar datos anteriores</text>
+<text xml:space="preserve" text-anchor="middle" x="373.95" y="-542.89" font-family="Arial" font-size="12.00" fill="#30203d">desde el dispositivo</text>
+</g>
+<!-- migrar&#45;&gt;export -->
+<g id="edge5" class="edge">
+<title>migrar&#45;&gt;export</title>
+<path fill="none" stroke="#79569a" d="M427.96,-636.12C416.83,-619.34 403.91,-599.86 393.5,-584.16"/>
+<polygon fill="#79569a" stroke="#79569a" points="395.65,-582.98 389.74,-578.5 391.57,-585.69 395.65,-582.98"/>
+<text xml:space="preserve" text-anchor="middle" x="414.84" y="-599.73" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- api -->
+<g id="node10" class="node">
+<title>api</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M526.61,-239.33C526.61,-239.33 353.3,-239.33 353.3,-239.33 347.3,-239.33 341.3,-233.33 341.3,-227.33 341.3,-227.33 341.3,-205.25 341.3,-205.25 341.3,-199.25 347.3,-193.25 353.3,-193.25 353.3,-193.25 526.61,-193.25 526.61,-193.25 532.61,-193.25 538.61,-199.25 538.61,-205.25 538.61,-205.25 538.61,-227.33 538.61,-227.33 538.61,-233.33 532.61,-239.33 526.61,-239.33"/>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-219.89" font-family="Arial" font-size="12.00" fill="#30203d">Iniciar API</text>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-205.49" font-family="Arial" font-size="12.00" fill="#30203d">Usar HTTPS fuera de desarrollo</text>
+</g>
+<!-- migrar&#45;&gt;api -->
+<g id="edge10" class="edge">
+<title>migrar&#45;&gt;api</title>
+<path fill="none" stroke="#79569a" d="M473.26,-634.81C491.34,-600.07 514.95,-554.69 514.95,-554.69 514.95,-554.69 514.95,-554.69 514.95,-311.91 514.95,-311.91 484.92,-274.01 462.86,-246.19"/>
+<polygon fill="#79569a" stroke="#79569a" points="464.94,-244.86 458.67,-240.9 461.1,-247.91 464.94,-244.86"/>
+<text xml:space="preserve" text-anchor="middle" x="521.35" y="-440.57" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- vacia -->
+<g id="node7" class="node">
+<title>vacia</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="321.95,-489.65 187.31,-443.57 321.95,-397.49 456.6,-443.57 321.95,-489.65"/>
+<text xml:space="preserve" text-anchor="middle" x="321.95" y="-447.17" font-family="Arial" font-size="12.00" fill="#30203d">¿Base central apta</text>
+<text xml:space="preserve" text-anchor="middle" x="321.95" y="-432.77" font-family="Arial" font-size="12.00" fill="#30203d">para la importación?</text>
+</g>
+<!-- export&#45;&gt;vacia -->
+<g id="edge6" class="edge">
+<title>export&#45;&gt;vacia</title>
+<path fill="none" stroke="#79569a" d="M363.18,-530.29C357.71,-518.91 350.85,-504.65 344.3,-491.04"/>
+<polygon fill="#79569a" stroke="#79569a" points="346.61,-490.18 341.36,-484.93 342.19,-492.3 346.61,-490.18"/>
+</g>
+<!-- rech -->
+<g id="node8" class="node">
+<title>rech</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="115.95" cy="-312.91" rx="115.95" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="115.95" y="-316.51" font-family="Arial" font-size="12.00" fill="white">Detener importación</text>
+<text xml:space="preserve" text-anchor="middle" x="115.95" y="-302.11" font-family="Arial" font-size="12.00" fill="white">Revisar datos y respaldos</text>
+</g>
+<!-- vacia&#45;&gt;rech -->
+<g id="edge7" class="edge">
+<title>vacia&#45;&gt;rech</title>
+<path fill="none" stroke="#79569a" d="M274.69,-413.06C243.31,-393.45 202.05,-367.68 169.46,-347.33"/>
+<polygon fill="#79569a" stroke="#79569a" points="171.16,-345.5 163.92,-343.87 168.56,-349.66 171.16,-345.5"/>
+<text xml:space="preserve" text-anchor="middle" x="219.17" y="-368.49" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- imp -->
+<g id="node9" class="node">
+<title>imp</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M458.63,-335.95C458.63,-335.95 273.28,-335.95 273.28,-335.95 267.28,-335.95 261.28,-329.95 261.28,-323.95 261.28,-323.95 261.28,-301.87 261.28,-301.87 261.28,-295.87 267.28,-289.87 273.28,-289.87 273.28,-289.87 458.63,-289.87 458.63,-289.87 464.63,-289.87 470.63,-295.87 470.63,-301.87 470.63,-301.87 470.63,-323.95 470.63,-323.95 470.63,-329.95 464.63,-335.95 458.63,-335.95"/>
+<text xml:space="preserve" text-anchor="middle" x="365.95" y="-316.51" font-family="Arial" font-size="12.00" fill="#30203d">Ejecutar &#45;&#45;importar archivo</text>
+<text xml:space="preserve" text-anchor="middle" x="365.95" y="-302.11" font-family="Arial" font-size="12.00" fill="#30203d">Validar y conservar identificadores</text>
+</g>
+<!-- vacia&#45;&gt;imp -->
+<g id="edge8" class="edge">
+<title>vacia&#45;&gt;imp</title>
+<path fill="none" stroke="#79569a" d="M335.88,-401.86C342.24,-383.26 349.64,-361.6 355.52,-344.43"/>
+<polygon fill="#79569a" stroke="#79569a" points="357.83,-345.24 357.78,-337.83 353.19,-343.66 357.83,-345.24"/>
+<text xml:space="preserve" text-anchor="middle" x="354.01" y="-368.49" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- imp&#45;&gt;api -->
+<g id="edge9" class="edge">
+<title>imp&#45;&gt;api</title>
+<path fill="none" stroke="#79569a" d="M383.49,-289.49C393.56,-276.62 406.3,-260.31 417.14,-246.46"/>
+<polygon fill="#79569a" stroke="#79569a" points="418.97,-248.09 421.35,-241.07 415.11,-245.08 418.97,-248.09"/>
+</g>
+<!-- cliente -->
+<g id="node11" class="node">
+<title>cliente</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M525.61,-152.25C525.61,-152.25 354.3,-152.25 354.3,-152.25 348.3,-152.25 342.3,-146.25 342.3,-140.25 342.3,-140.25 342.3,-118.17 342.3,-118.17 342.3,-112.17 348.3,-106.17 354.3,-106.17 354.3,-106.17 525.61,-106.17 525.61,-106.17 531.61,-106.17 537.61,-112.17 537.61,-118.17 537.61,-118.17 537.61,-140.25 537.61,-140.25 537.61,-146.25 531.61,-152.25 525.61,-152.25"/>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-132.81" font-family="Arial" font-size="12.00" fill="#30203d">Configurar dirección en la app</text>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-118.41" font-family="Arial" font-size="12.00" fill="#30203d">Iniciar sesión y comprobar roles</text>
+</g>
+<!-- api&#45;&gt;cliente -->
+<g id="edge11" class="edge">
+<title>api&#45;&gt;cliente</title>
+<path fill="none" stroke="#79569a" d="M439.95,-192.93C439.95,-183.14 439.95,-171.5 439.95,-160.91"/>
+<polygon fill="#79569a" stroke="#79569a" points="442.4,-161.22 439.95,-154.22 437.5,-161.22 442.4,-161.22"/>
+</g>
+<!-- op -->
+<g id="node12" class="node">
+<title>op</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="439.95" cy="-32.58" rx="134.84" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-36.18" font-family="Arial" font-size="12.00" fill="white">Operar con API y SQL activos</text>
+<text xml:space="preserve" text-anchor="middle" x="439.95" y="-21.78" font-family="Arial" font-size="12.00" fill="white">Mantener respaldos de la base</text>
+</g>
+<!-- cliente&#45;&gt;op -->
+<g id="edge12" class="edge">
+<title>cliente&#45;&gt;op</title>
+<path fill="none" stroke="#79569a" d="M439.95,-105.78C439.95,-96.2 439.95,-84.72 439.95,-73.76"/>
+<polygon fill="#79569a" stroke="#79569a" points="442.4,-74.03 439.95,-67.03 437.5,-74.03 442.4,-74.03"/>
+</g>
+</g>
+</svg>

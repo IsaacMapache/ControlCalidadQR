@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Shell
+    x:Class="ControlCalidadQR.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:ControlCalidadQR.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ControlCalidadQR" Shell.BackgroundColor="{StaticResource CabeceraCalidad}" Shell.ForegroundColor="White" Shell.TitleColor="White" Shell.UnselectedColor="{StaticResource TextoSobreOscuroCalidad}">
+
+    <!-- El login es la primera pantalla al abrir la aplicación. -->
+    <ShellContent
+        Title="Iniciar sesión"
+        ContentTemplate="{DataTemplate pages:Login}"
+        Route="login" />
+
+    <!-- La ruta absoluta permite abrir el menú sin dejar el login en la pila. -->
+    <ShellContent
+        Title="Menú principal"
+        ContentTemplate="{DataTemplate pages:MenuPrincipal}"
+        Route="menuPrincipal" />
+
+</Shell>
+

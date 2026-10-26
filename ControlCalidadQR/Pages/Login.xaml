@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlCalidadQR.Pages.Login" Title="Acceso" Shell.NavBarIsVisible="False" BackgroundColor="{StaticResource FondoCalidad}">
+    <ScrollView>
+        <VerticalStackLayout Padding="24,36" Spacing="22" MaximumWidthRequest="520" HorizontalOptions="Fill">
+            <Border BackgroundColor="{StaticResource CabeceraCalidad}" StrokeThickness="0" StrokeShape="RoundRectangle 24" Padding="28">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="CONTROL DE CALIDAD" TextColor="{StaticResource AcentoClaroCalidad}" FontSize="12" CharacterSpacing="2" FontAttributes="Bold"/>
+                    <Label Text="Cada lote,&#10;con su historia." TextColor="White" FontSize="32" FontAttributes="Bold"/>
+                    <Label Text="Registra evaluaciones, consulta resultados y conserva la trazabilidad de tu trabajo." TextColor="{StaticResource TextoSobreOscuroCalidad}" FontSize="14"/>
+                </VerticalStackLayout>
+            </Border>
+            <Border BackgroundColor="White" Stroke="{StaticResource BordeCalidad}" StrokeShape="RoundRectangle 22" Padding="24">
+                <VerticalStackLayout Spacing="14">
+                    <Label Text="Inicia sesión" FontSize="25" FontAttributes="Bold" TextColor="{StaticResource CabeceraCalidad}"/>
+                    <Label Text="Utiliza tu cuenta del servidor de calidad." FontSize="14" TextColor="{StaticResource TextoSecundarioCalidad}" Margin="0,0,0,6"/>
+                    <Label Text="Usuario" FontSize="13" FontAttributes="Bold" TextColor="{StaticResource TextoCalidad}"/>
+                    <Border BackgroundColor="{StaticResource CampoCalidad}" Stroke="{StaticResource BordeCalidad}" StrokeShape="RoundRectangle 12" Padding="12,4">
+                        <Entry x:Name="UsuarioEntry" Placeholder="Tu nombre de usuario" PlaceholderColor="{StaticResource TextoAyudaCalidad}" TextColor="{StaticResource TextoEntradaCalidad}" BackgroundColor="Transparent" FontSize="16" ReturnType="Next" Completed="OnUsuarioCompleted"/>
+                    </Border>
+                    <Label Text="Contraseña" FontSize="13" FontAttributes="Bold" TextColor="{StaticResource TextoCalidad}"/>
+                    <Border BackgroundColor="{StaticResource CampoCalidad}" Stroke="{StaticResource BordeCalidad}" StrokeShape="RoundRectangle 12" Padding="12,4">
+                        <Entry x:Name="PasswordEntry" Placeholder="Tu contraseña" PlaceholderColor="{StaticResource TextoAyudaCalidad}" IsPassword="True" TextColor="{StaticResource TextoEntradaCalidad}" BackgroundColor="Transparent" FontSize="16" ReturnType="Go" Completed="OnLoginClicked"/>
+                    </Border>
+                    <HorizontalStackLayout Spacing="6">
+                        <CheckBox x:Name="MostrarClaveCheck" CheckedChanged="OnMostrarClaveChanged" Color="{StaticResource Primary}" SemanticProperties.Description="Mostrar contraseña"/>
+                        <Label Text="Mostrar contraseña" VerticalOptions="Center" TextColor="{StaticResource TextoSecundarioCalidad}" FontSize="13"/>
+                    </HorizontalStackLayout>
+                    <Button x:Name="IniciarButton" Text="Entrar a mi espacio" BackgroundColor="{StaticResource Primary}" TextColor="White" FontAttributes="Bold" HeightRequest="52" CornerRadius="14" Margin="0,8,0,0" Clicked="OnLoginClicked"/>
+                    <Label x:Name="EstadoServidorLabel" Text="Configura el servidor antes de tu primer acceso." FontSize="12" TextColor="{StaticResource TextoSecundarioCalidad}" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+            </Border>
+            <Button Text="Configurar servidor" Clicked="OnConfigurarServidorClicked" BackgroundColor="White" TextColor="{StaticResource CabeceraCalidad}" BorderColor="{StaticResource BordeCalidad}" BorderWidth="1" CornerRadius="14" HeightRequest="48"/>
+            <Button Text="Exportar datos anteriores" Clicked="OnExportarDatosClicked" BackgroundColor="Transparent" TextColor="{StaticResource TextoSecundarioCalidad}" CornerRadius="14" HeightRequest="44"/>
+            <Label Text="Acceso según tu rol · Información centralizada" FontSize="11" TextColor="{StaticResource TextoSecundarioCalidad}" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,25 @@
+digraph flujo { graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.4", ranksep="0.55", splines=polyline]; node [shape=box, style="rounded,filled", fillcolor="#F5EFFC", color="#9873BA", fontcolor="#30203D", fontname="Arial", fontsize=12, margin="0.18,0.12", penwidth=1.2]; edge [color="#79569A", fontcolor="#593080", fontname="Arial", fontsize=10, arrowsize=0.7];
+i [label="Abrir historial y elegir control",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+final [label="¿Está finalizado?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+b [label="Continuar borrador si el rol permite\nSi no, consultar",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+ver [label="Consultar resultado y reporte"];
+cambio [label="¿Se necesita corregir\ny el rol puede registrar?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+consulta [label="Conservar consulta",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+existe [label="¿Ya tiene revisión\nsucesora?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+abrir [label="Abrir la revisión existente",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+rev [label="Crear nuevo Id vinculado al original\nCopiar criterios y pedir motivo"];
+guardar [label="Guardar revisión como borrador\nOriginal sigue vigente en el resumen"];
+terminar [label="Finalizar revisión con las\nreglas de evaluación"];
+res [label="Resumen usa el nuevo resultado\nHistorial conserva ambos",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+i -> final;
+final -> b [label="No"];
+final -> ver [label="Sí"];
+ver -> cambio;
+cambio -> consulta [label="No"];
+cambio -> existe [label="Sí"];
+existe -> abrir [label="Sí"];
+existe -> rev [label="No"];
+rev -> guardar;
+guardar -> terminar;
+terminar -> res;
+}

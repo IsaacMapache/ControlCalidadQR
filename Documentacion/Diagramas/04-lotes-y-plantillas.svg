@@ -1,0 +1,176 @@
+<svg width="1014pt" height="715pt"
+ viewBox="0.00 0.00 1014.00 715.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 693.33)">
+<title>flujo</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-693.33 992.38,-693.33 992.38,21.6 -21.6,21.6"/>
+<!-- i -->
+<g id="node1" class="node">
+<title>i</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="523.8" cy="-649.33" rx="75.88" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="523.8" y="-645.73" font-family="Arial" font-size="12.00" fill="white">Elegir apartado</text>
+</g>
+<!-- tipo -->
+<g id="node2" class="node">
+<title>tipo</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="523.8,-585.93 395.14,-554.25 523.8,-522.57 652.45,-554.25 523.8,-585.93"/>
+<text xml:space="preserve" text-anchor="middle" x="523.8" y="-550.65" font-family="Arial" font-size="12.00" fill="#30203d">¿Lotes o plantillas?</text>
+</g>
+<!-- i&#45;&gt;tipo -->
+<g id="edge1" class="edge">
+<title>i&#45;&gt;tipo</title>
+<path fill="none" stroke="#79569a" d="M523.8,-626.74C523.8,-617.15 523.8,-605.56 523.8,-594.53"/>
+<polygon fill="#79569a" stroke="#79569a" points="526.25,-594.76 523.8,-587.76 521.35,-594.76 526.25,-594.76"/>
+</g>
+<!-- l -->
+<g id="node3" class="node">
+<title>l</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M497.46,-470.57C497.46,-470.57 338.13,-470.57 338.13,-470.57 332.13,-470.57 326.13,-464.57 326.13,-458.57 326.13,-458.57 326.13,-436.49 326.13,-436.49 326.13,-430.49 332.13,-424.49 338.13,-424.49 338.13,-424.49 497.46,-424.49 497.46,-424.49 503.46,-424.49 509.46,-430.49 509.46,-436.49 509.46,-436.49 509.46,-458.57 509.46,-458.57 509.46,-464.57 503.46,-470.57 497.46,-470.57"/>
+<text xml:space="preserve" text-anchor="middle" x="417.8" y="-451.13" font-family="Arial" font-size="12.00" fill="#30203d">Buscar y consultar lotes</text>
+<text xml:space="preserve" text-anchor="middle" x="417.8" y="-436.73" font-family="Arial" font-size="12.00" fill="#30203d">Incluir archivados si se desea</text>
+</g>
+<!-- tipo&#45;&gt;l -->
+<g id="edge2" class="edge">
+<title>tipo&#45;&gt;l</title>
+<path fill="none" stroke="#79569a" d="M498.68,-528.43C482.97,-512.92 462.71,-492.89 446.39,-476.77"/>
+<polygon fill="#79569a" stroke="#79569a" points="448.35,-475.26 441.65,-472.09 444.9,-478.75 448.35,-475.26"/>
+<text xml:space="preserve" text-anchor="middle" x="483.03" y="-493.57" font-family="Arial" font-size="10.00" fill="#593080">Lotes</text>
+</g>
+<!-- p -->
+<g id="node8" class="node">
+<title>p</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M712.79,-465.53C712.79,-465.53 554.81,-465.53 554.81,-465.53 548.81,-465.53 542.81,-459.53 542.81,-453.53 542.81,-453.53 542.81,-441.53 542.81,-441.53 542.81,-435.53 548.81,-429.53 554.81,-429.53 554.81,-429.53 712.79,-429.53 712.79,-429.53 718.79,-429.53 724.79,-435.53 724.79,-441.53 724.79,-441.53 724.79,-453.53 724.79,-453.53 724.79,-459.53 718.79,-465.53 712.79,-465.53"/>
+<text xml:space="preserve" text-anchor="middle" x="633.8" y="-443.93" font-family="Arial" font-size="12.00" fill="#30203d">Consultar plantillas y criterios</text>
+</g>
+<!-- tipo&#45;&gt;p -->
+<g id="edge8" class="edge">
+<title>tipo&#45;&gt;p</title>
+<path fill="none" stroke="#79569a" d="M549.87,-528.43C568.02,-511.15 592.05,-488.27 609.74,-471.43"/>
+<polygon fill="#79569a" stroke="#79569a" points="611,-473.61 614.38,-467.01 607.63,-470.06 611,-473.61"/>
+<text xml:space="preserve" text-anchor="middle" x="608.66" y="-493.57" font-family="Arial" font-size="10.00" fill="#593080">Plantillas</text>
+</g>
+<!-- lp -->
+<g id="node4" class="node">
+<title>lp</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="390.8,-383.49 285.51,-337.41 390.8,-291.33 496.09,-337.41 390.8,-383.49"/>
+<text xml:space="preserve" text-anchor="middle" x="390.8" y="-341.01" font-family="Arial" font-size="12.00" fill="#30203d">¿Inspector o</text>
+<text xml:space="preserve" text-anchor="middle" x="390.8" y="-326.61" font-family="Arial" font-size="12.00" fill="#30203d">administrador?</text>
+</g>
+<!-- l&#45;&gt;lp -->
+<g id="edge3" class="edge">
+<title>l&#45;&gt;lp</title>
+<path fill="none" stroke="#79569a" d="M412.2,-424.12C409.54,-413.47 406.25,-400.28 403.05,-387.47"/>
+<polygon fill="#79569a" stroke="#79569a" points="405.52,-387.24 401.44,-381.04 400.76,-388.43 405.52,-387.24"/>
+</g>
+<!-- lc -->
+<g id="node5" class="node">
+<title>lc</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="126.8" cy="-216.29" rx="126.8" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="126.8" y="-212.69" font-family="Arial" font-size="12.00" fill="white">Consultar lote, QR e historial</text>
+</g>
+<!-- lp&#45;&gt;lc -->
+<g id="edge4" class="edge">
+<title>lp&#45;&gt;lc</title>
+<path fill="none" stroke="#79569a" d="M339.58,-313.3C293.56,-292.53 226.25,-262.16 179.72,-241.17"/>
+<polygon fill="#79569a" stroke="#79569a" points="180.91,-239.02 173.52,-238.37 178.9,-243.48 180.91,-239.02"/>
+<text xml:space="preserve" text-anchor="middle" x="249.38" y="-262.33" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- le -->
+<g id="node6" class="node">
+<title>le</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M493.15,-239.33C493.15,-239.33 294.45,-239.33 294.45,-239.33 288.45,-239.33 282.45,-233.33 282.45,-227.33 282.45,-227.33 282.45,-205.25 282.45,-205.25 282.45,-199.25 288.45,-193.25 294.45,-193.25 294.45,-193.25 493.15,-193.25 493.15,-193.25 499.15,-193.25 505.15,-199.25 505.15,-205.25 505.15,-205.25 505.15,-227.33 505.15,-227.33 505.15,-233.33 499.15,-239.33 493.15,-239.33"/>
+<text xml:space="preserve" text-anchor="middle" x="393.8" y="-219.89" font-family="Arial" font-size="12.00" fill="#30203d">Crear o editar lote</text>
+<text xml:space="preserve" text-anchor="middle" x="393.8" y="-205.49" font-family="Arial" font-size="12.00" fill="#30203d">Número, producto, cantidad y unidad</text>
+</g>
+<!-- lp&#45;&gt;le -->
+<g id="edge5" class="edge">
+<title>lp&#45;&gt;le</title>
+<path fill="none" stroke="#79569a" d="M391.93,-291.37C392.3,-276.89 392.69,-261.18 393.02,-247.98"/>
+<polygon fill="#79569a" stroke="#79569a" points="395.47,-248.27 393.19,-241.21 390.57,-248.15 395.47,-248.27"/>
+<text xml:space="preserve" text-anchor="middle" x="398.77" y="-262.33" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- la -->
+<g id="node7" class="node">
+<title>la</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M668.79,-152.25C668.79,-152.25 510.81,-152.25 510.81,-152.25 504.81,-152.25 498.81,-146.25 498.81,-140.25 498.81,-140.25 498.81,-118.17 498.81,-118.17 498.81,-112.17 504.81,-106.17 510.81,-106.17 510.81,-106.17 668.79,-106.17 668.79,-106.17 674.79,-106.17 680.79,-112.17 680.79,-118.17 680.79,-118.17 680.79,-140.25 680.79,-140.25 680.79,-146.25 674.79,-152.25 668.79,-152.25"/>
+<text xml:space="preserve" text-anchor="middle" x="589.8" y="-132.81" font-family="Arial" font-size="12.00" fill="#30203d">Opcional: archivar o reactivar</text>
+<text xml:space="preserve" text-anchor="middle" x="589.8" y="-118.41" font-family="Arial" font-size="12.00" fill="#30203d">Conservar Id e historial</text>
+</g>
+<!-- le&#45;&gt;la -->
+<g id="edge6" class="edge">
+<title>le&#45;&gt;la</title>
+<path fill="none" stroke="#79569a" d="M445.81,-192.71C471.83,-181.42 503.44,-167.69 530.41,-155.99"/>
+<polygon fill="#79569a" stroke="#79569a" points="531.05,-158.38 536.5,-153.34 529.1,-153.88 531.05,-158.38"/>
+</g>
+<!-- save -->
+<g id="node13" class="node">
+<title>save</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="696.8" cy="-32.58" rx="111.72" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="696.8" y="-36.18" font-family="Arial" font-size="12.00" fill="white">Guardar mediante la API</text>
+<text xml:space="preserve" text-anchor="middle" x="696.8" y="-21.78" font-family="Arial" font-size="12.00" fill="white">Validar datos y versión</text>
+</g>
+<!-- la&#45;&gt;save -->
+<g id="edge7" class="edge">
+<title>la&#45;&gt;save</title>
+<path fill="none" stroke="#79569a" d="M615.15,-105.78C627.37,-94.98 642.33,-81.75 656.09,-69.58"/>
+<polygon fill="#79569a" stroke="#79569a" points="657.56,-71.56 661.18,-65.08 654.31,-67.89 657.56,-71.56"/>
+</g>
+<!-- pp -->
+<g id="node9" class="node">
+<title>pp</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="638.8,-369.09 525.51,-337.41 638.8,-305.73 752.09,-337.41 638.8,-369.09"/>
+<text xml:space="preserve" text-anchor="middle" x="638.8" y="-333.81" font-family="Arial" font-size="12.00" fill="#30203d">¿Administrador?</text>
+</g>
+<!-- p&#45;&gt;pp -->
+<g id="edge9" class="edge">
+<title>p&#45;&gt;pp</title>
+<path fill="none" stroke="#79569a" d="M634.6,-429.16C635.24,-415.3 636.16,-395.37 636.98,-377.71"/>
+<polygon fill="#79569a" stroke="#79569a" points="639.42,-377.88 637.3,-370.77 634.53,-377.65 639.42,-377.88"/>
+</g>
+<!-- pc -->
+<g id="node10" class="node">
+<title>pc</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="637.8" cy="-216.29" rx="103.71" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="637.8" y="-212.69" font-family="Arial" font-size="12.00" fill="white">Consulta de la plantilla</text>
+</g>
+<!-- pp&#45;&gt;pc -->
+<g id="edge10" class="edge">
+<title>pp&#45;&gt;pc</title>
+<path fill="none" stroke="#79569a" d="M638.54,-305.42C638.39,-287.53 638.2,-265.13 638.05,-247.39"/>
+<polygon fill="#79569a" stroke="#79569a" points="640.5,-247.59 637.99,-240.61 635.6,-247.63 640.5,-247.59"/>
+<text xml:space="preserve" text-anchor="middle" x="644.63" y="-262.33" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- pe -->
+<g id="node11" class="node">
+<title>pe</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M958.78,-239.33C958.78,-239.33 782.81,-239.33 782.81,-239.33 776.81,-239.33 770.81,-233.33 770.81,-227.33 770.81,-227.33 770.81,-205.25 770.81,-205.25 770.81,-199.25 776.81,-193.25 782.81,-193.25 782.81,-193.25 958.78,-193.25 958.78,-193.25 964.78,-193.25 970.78,-199.25 970.78,-205.25 970.78,-205.25 970.78,-227.33 970.78,-227.33 970.78,-233.33 964.78,-239.33 958.78,-239.33"/>
+<text xml:space="preserve" text-anchor="middle" x="870.8" y="-219.89" font-family="Arial" font-size="12.00" fill="#30203d">Crear o editar plantilla</text>
+<text xml:space="preserve" text-anchor="middle" x="870.8" y="-205.49" font-family="Arial" font-size="12.00" fill="#30203d">Criterios Sí/No, Número o Texto</text>
+</g>
+<!-- pp&#45;&gt;pe -->
+<g id="edge11" class="edge">
+<title>pp&#45;&gt;pe</title>
+<path fill="none" stroke="#79569a" d="M678.15,-316.2C717.06,-296.22 776.78,-265.56 819.41,-243.67"/>
+<polygon fill="#79569a" stroke="#79569a" points="820.44,-245.9 825.55,-240.52 818.2,-241.54 820.44,-245.9"/>
+<text xml:space="preserve" text-anchor="middle" x="788.51" y="-262.33" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- pa -->
+<g id="node12" class="node">
+<title>pa</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M920.79,-152.25C920.79,-152.25 754.8,-152.25 754.8,-152.25 748.8,-152.25 742.8,-146.25 742.8,-140.25 742.8,-140.25 742.8,-118.17 742.8,-118.17 742.8,-112.17 748.8,-106.17 754.8,-106.17 754.8,-106.17 920.79,-106.17 920.79,-106.17 926.79,-106.17 932.79,-112.17 932.79,-118.17 932.79,-118.17 932.79,-140.25 932.79,-140.25 932.79,-146.25 926.79,-152.25 920.79,-152.25"/>
+<text xml:space="preserve" text-anchor="middle" x="837.8" y="-132.81" font-family="Arial" font-size="12.00" fill="#30203d">Definir obligatoriedad y límites</text>
+<text xml:space="preserve" text-anchor="middle" x="837.8" y="-118.41" font-family="Arial" font-size="12.00" fill="#30203d">Archivar o reactivar</text>
+</g>
+<!-- pe&#45;&gt;pa -->
+<g id="edge12" class="edge">
+<title>pe&#45;&gt;pa</title>
+<path fill="none" stroke="#79569a" d="M862.13,-192.93C858.29,-183.05 853.72,-171.27 849.59,-160.6"/>
+<polygon fill="#79569a" stroke="#79569a" points="851.89,-159.76 847.07,-154.12 847.32,-161.53 851.89,-159.76"/>
+</g>
+<!-- pa&#45;&gt;save -->
+<g id="edge13" class="edge">
+<title>pa&#45;&gt;save</title>
+<path fill="none" stroke="#79569a" d="M804.38,-105.78C787.41,-94.39 766.43,-80.31 747.52,-67.62"/>
+<polygon fill="#79569a" stroke="#79569a" points="749.09,-65.72 741.91,-63.86 746.36,-69.79 749.09,-65.72"/>
+</g>
+</g>
+</svg>

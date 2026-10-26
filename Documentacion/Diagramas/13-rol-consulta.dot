@@ -1,0 +1,28 @@
+digraph flujo { graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.4", ranksep="0.55", splines=polyline]; node [shape=box, style="rounded,filled", fillcolor="#F5EFFC", color="#9873BA", fontcolor="#30203D", fontname="Arial", fontsize=12, margin="0.18,0.12", penwidth=1.2]; edge [color="#79569A", fontcolor="#593080", fontname="Arial", fontsize=10, arrowsize=0.7];
+i [label="Iniciar sesión con rol Consulta",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+menu [label="Menú de consulta\nSin Nuevo control ni Usuarios"];
+op [label="¿Qué desea consultar?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+l [label="Consultar lotes y plantillas\nCampos sin edición"];
+qr [label="Leer QR o generar etiqueta del lote\nVer información actual"];
+hist [label="Consultar historial de controles\ny cambios del lote"];
+res [label="Consultar resumen de calidad"];
+pdf [label="¿Desea generar\nun reporte PDF?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+f [label="¿Control finalizado?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+si [label="Generar PDF\nGuardar, compartir o imprimir",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+no [label="Solo consultar el borrador\nEste rol no puede finalizarlo",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+fin [label="Continuar consultando\no cerrar sesión",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+i -> menu;
+menu -> op;
+op -> l [label="Lotes / plantillas"];
+op -> qr [label="QR"];
+op -> hist [label="Historial"];
+op -> res [label="Resumen"];
+l -> fin;
+qr -> hist;
+res -> fin;
+hist -> pdf;
+pdf -> fin [label="No"];
+pdf -> f [label="Sí"];
+f -> si [label="Sí"];
+f -> no [label="No"];
+}

@@ -1,0 +1,186 @@
+<svg width="876pt" height="940pt"
+ viewBox="0.00 0.00 876.00 940.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 918.57)">
+<title>flujo</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-918.57 854.87,-918.57 854.87,21.6 -21.6,21.6"/>
+<!-- i -->
+<g id="node1" class="node">
+<title>i</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="141.3" cy="-874.57" rx="115.46" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="141.3" y="-870.97" font-family="Arial" font-size="12.00" fill="white">Abrir Usuarios y permisos</text>
+</g>
+<!-- admin -->
+<g id="node2" class="node">
+<title>admin</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="141.3,-811.17 0,-765.09 141.3,-719.01 282.59,-765.09 141.3,-811.17"/>
+<text xml:space="preserve" text-anchor="middle" x="141.3" y="-768.69" font-family="Arial" font-size="12.00" fill="#30203d">¿Administrador activo</text>
+<text xml:space="preserve" text-anchor="middle" x="141.3" y="-754.29" font-family="Arial" font-size="12.00" fill="#30203d">y sesión vigente?</text>
+</g>
+<!-- i&#45;&gt;admin -->
+<g id="edge1" class="edge">
+<title>i&#45;&gt;admin</title>
+<path fill="none" stroke="#79569a" d="M141.3,-851.82C141.3,-842.54 141.3,-831.26 141.3,-819.97"/>
+<polygon fill="#79569a" stroke="#79569a" points="143.75,-820.29 141.3,-813.29 138.85,-820.29 143.75,-820.29"/>
+</g>
+<!-- no -->
+<g id="node3" class="node">
+<title>no</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="118.3" cy="-635.33" rx="80.12" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="118.3" y="-631.73" font-family="Arial" font-size="12.00" fill="white">Denegar acceso</text>
+</g>
+<!-- admin&#45;&gt;no -->
+<g id="edge2" class="edge">
+<title>admin&#45;&gt;no</title>
+<path fill="none" stroke="#79569a" d="M133.57,-721.19C130.33,-703.16 126.63,-682.63 123.69,-666.28"/>
+<polygon fill="#79569a" stroke="#79569a" points="126.14,-666.09 122.49,-659.63 121.32,-666.96 126.14,-666.09"/>
+<text xml:space="preserve" text-anchor="middle" x="135.5" y="-690.01" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- tipo -->
+<g id="node4" class="node">
+<title>tipo</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="367.3,-667.01 227.32,-635.33 367.3,-603.65 507.27,-635.33 367.3,-667.01"/>
+<text xml:space="preserve" text-anchor="middle" x="367.3" y="-631.73" font-family="Arial" font-size="12.00" fill="#30203d">¿Alta o modificación?</text>
+</g>
+<!-- admin&#45;&gt;tipo -->
+<g id="edge3" class="edge">
+<title>admin&#45;&gt;tipo</title>
+<path fill="none" stroke="#79569a" d="M192.3,-735.26C230.87,-713.45 283.39,-683.76 320.81,-662.61"/>
+<polygon fill="#79569a" stroke="#79569a" points="321.88,-664.82 326.76,-659.24 319.47,-660.55 321.88,-664.82"/>
+<text xml:space="preserve" text-anchor="middle" x="280.65" y="-690.01" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- alta -->
+<g id="node5" class="node">
+<title>alta</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="240.3,-464.57 87.65,-418.49 240.3,-372.41 392.94,-418.49 240.3,-464.57"/>
+<text xml:space="preserve" text-anchor="middle" x="240.3" y="-422.09" font-family="Arial" font-size="12.00" fill="#30203d">¿Nombre disponible, rol</text>
+<text xml:space="preserve" text-anchor="middle" x="240.3" y="-407.69" font-family="Arial" font-size="12.00" fill="#30203d">y contraseña válidos?</text>
+</g>
+<!-- tipo&#45;&gt;alta -->
+<g id="edge4" class="edge">
+<title>tipo&#45;&gt;alta</title>
+<path fill="none" stroke="#79569a" d="M351.21,-607.12C330.14,-571.47 292.88,-508.43 267.41,-465.35"/>
+<polygon fill="#79569a" stroke="#79569a" points="269.55,-464.16 263.88,-459.38 265.33,-466.65 269.55,-464.16"/>
+<text xml:space="preserve" text-anchor="middle" x="325.04" y="-525.61" font-family="Arial" font-size="10.00" fill="#593080">Alta</text>
+</g>
+<!-- mod -->
+<g id="node6" class="node">
+<title>mod</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M568.62,-551.65C568.62,-551.65 421.97,-551.65 421.97,-551.65 415.97,-551.65 409.97,-545.65 409.97,-539.65 409.97,-539.65 409.97,-517.57 409.97,-517.57 409.97,-511.57 415.97,-505.57 421.97,-505.57 421.97,-505.57 568.62,-505.57 568.62,-505.57 574.62,-505.57 580.62,-511.57 580.62,-517.57 580.62,-517.57 580.62,-539.65 580.62,-539.65 580.62,-545.65 574.62,-551.65 568.62,-551.65"/>
+<text xml:space="preserve" text-anchor="middle" x="495.3" y="-532.21" font-family="Arial" font-size="12.00" fill="#30203d">Leer cuenta y versión</text>
+<text xml:space="preserve" text-anchor="middle" x="495.3" y="-517.81" font-family="Arial" font-size="12.00" fill="#30203d">Validar cambios solicitados</text>
+</g>
+<!-- tipo&#45;&gt;mod -->
+<g id="edge7" class="edge">
+<title>tipo&#45;&gt;mod</title>
+<path fill="none" stroke="#79569a" d="M396.98,-610.04C416.23,-594.3 441.34,-573.75 461.37,-557.36"/>
+<polygon fill="#79569a" stroke="#79569a" points="462.92,-559.26 466.78,-552.93 459.81,-555.47 462.92,-559.26"/>
+<text xml:space="preserve" text-anchor="middle" x="463.04" y="-574.65" font-family="Arial" font-size="10.00" fill="#593080">Modificar</text>
+</g>
+<!-- conf -->
+<g id="node8" class="node">
+<title>conf</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="399.3" cy="-274.33" rx="124.89" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="399.3" y="-277.93" font-family="Arial" font-size="12.00" fill="white">Mostrar error y revisar datos</text>
+<text xml:space="preserve" text-anchor="middle" x="399.3" y="-263.53" font-family="Arial" font-size="12.00" fill="white">Reabrir si cambió la versión</text>
+</g>
+<!-- alta&#45;&gt;conf -->
+<g id="edge6" class="edge">
+<title>alta&#45;&gt;conf</title>
+<path fill="none" stroke="#79569a" d="M278.38,-383.44C302.6,-361.78 333.94,-333.76 358.65,-311.67"/>
+<polygon fill="#79569a" stroke="#79569a" points="360.06,-313.69 363.65,-307.2 356.8,-310.04 360.06,-313.69"/>
+<text xml:space="preserve" text-anchor="middle" x="358.47" y="-343.41" font-family="Arial" font-size="10.00" fill="#593080">Datos inválidos</text>
+</g>
+<!-- new -->
+<g id="node11" class="node">
+<title>new</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M324.31,-208.25C324.31,-208.25 152.29,-208.25 152.29,-208.25 146.29,-208.25 140.29,-202.25 140.29,-196.25 140.29,-196.25 140.29,-184.25 140.29,-184.25 140.29,-178.25 146.29,-172.25 152.29,-172.25 152.29,-172.25 324.31,-172.25 324.31,-172.25 330.31,-172.25 336.31,-178.25 336.31,-184.25 336.31,-184.25 336.31,-196.25 336.31,-196.25 336.31,-202.25 330.31,-208.25 324.31,-208.25"/>
+<text xml:space="preserve" text-anchor="middle" x="238.3" y="-186.65" font-family="Arial" font-size="12.00" fill="#30203d">Guardar cuenta y hash de clave</text>
+</g>
+<!-- alta&#45;&gt;new -->
+<g id="edge5" class="edge">
+<title>alta&#45;&gt;new</title>
+<path fill="none" stroke="#79569a" d="M239.89,-371.98C239.48,-325.51 238.86,-254.99 238.53,-217.25"/>
+<polygon fill="#79569a" stroke="#79569a" points="240.98,-217.33 238.47,-210.35 236.08,-217.37 240.98,-217.33"/>
+<text xml:space="preserve" text-anchor="middle" x="269.73" y="-343.41" font-family="Arial" font-size="10.00" fill="#593080">Datos válidos</text>
+</g>
+<!-- version -->
+<g id="node7" class="node">
+<title>version</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="537.3,-450.17 422,-418.49 537.3,-386.81 652.6,-418.49 537.3,-450.17"/>
+<text xml:space="preserve" text-anchor="middle" x="537.3" y="-414.89" font-family="Arial" font-size="12.00" fill="#30203d">¿Versión actual?</text>
+</g>
+<!-- mod&#45;&gt;version -->
+<g id="edge8" class="edge">
+<title>mod&#45;&gt;version</title>
+<path fill="none" stroke="#79569a" d="M504,-505.2C509.57,-490.85 516.94,-471.9 523.32,-455.47"/>
+<polygon fill="#79569a" stroke="#79569a" points="525.56,-456.46 525.81,-449.05 520.99,-454.69 525.56,-456.46"/>
+</g>
+<!-- version&#45;&gt;conf -->
+<g id="edge9" class="edge">
+<title>version&#45;&gt;conf</title>
+<path fill="none" stroke="#79569a" d="M513.57,-393.05C492.03,-370.85 459.94,-337.8 435.24,-312.36"/>
+<polygon fill="#79569a" stroke="#79569a" points="437.14,-310.8 430.51,-307.48 433.63,-314.21 437.14,-310.8"/>
+<text xml:space="preserve" text-anchor="middle" x="478.83" y="-343.41" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- ultimo -->
+<g id="node9" class="node">
+<title>ultimo</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="693.3,-320.41 553.32,-274.33 693.3,-228.25 833.27,-274.33 693.3,-320.41"/>
+<text xml:space="preserve" text-anchor="middle" x="693.3" y="-277.93" font-family="Arial" font-size="12.00" fill="#30203d">¿Se dejaría sin</text>
+<text xml:space="preserve" text-anchor="middle" x="693.3" y="-263.53" font-family="Arial" font-size="12.00" fill="#30203d">administrador activo?</text>
+</g>
+<!-- version&#45;&gt;ultimo -->
+<g id="edge10" class="edge">
+<title>version&#45;&gt;ultimo</title>
+<path fill="none" stroke="#79569a" d="M563.41,-393.69C587.12,-372.09 622.53,-339.82 650.39,-314.43"/>
+<polygon fill="#79569a" stroke="#79569a" points="651.93,-316.34 655.46,-309.81 648.63,-312.71 651.93,-316.34"/>
+<text xml:space="preserve" text-anchor="middle" x="626.09" y="-343.41" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- rech -->
+<g id="node10" class="node">
+<title>rech</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="693.3" cy="-129.21" rx="93.32" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="693.3" y="-125.61" font-family="Arial" font-size="12.00" fill="white">Rechazar el cambio</text>
+</g>
+<!-- ultimo&#45;&gt;rech -->
+<g id="edge11" class="edge">
+<title>ultimo&#45;&gt;rech</title>
+<path fill="none" stroke="#79569a" d="M693.3,-227.65C693.3,-205.66 693.3,-179.9 693.3,-160.39"/>
+<polygon fill="#79569a" stroke="#79569a" points="695.75,-160.41 693.3,-153.41 690.85,-160.41 695.75,-160.41"/>
+<text xml:space="preserve" text-anchor="middle" x="699.41" y="-187.25" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- upd -->
+<g id="node12" class="node">
+<title>upd</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M550.96,-152.25C550.96,-152.25 339.63,-152.25 339.63,-152.25 333.63,-152.25 327.63,-146.25 327.63,-140.25 327.63,-140.25 327.63,-118.17 327.63,-118.17 327.63,-112.17 333.63,-106.17 339.63,-106.17 339.63,-106.17 550.96,-106.17 550.96,-106.17 556.96,-106.17 562.96,-112.17 562.96,-118.17 562.96,-118.17 562.96,-140.25 562.96,-140.25 562.96,-146.25 556.96,-152.25 550.96,-152.25"/>
+<text xml:space="preserve" text-anchor="middle" x="445.3" y="-132.81" font-family="Arial" font-size="12.00" fill="#30203d">Actualizar rol, estado o clave</text>
+<text xml:space="preserve" text-anchor="middle" x="445.3" y="-118.41" font-family="Arial" font-size="12.00" fill="#30203d">Incrementar versión y revocar sesiones</text>
+</g>
+<!-- ultimo&#45;&gt;upd -->
+<g id="edge12" class="edge">
+<title>ultimo&#45;&gt;upd</title>
+<path fill="none" stroke="#79569a" d="M643.11,-244.36C598.82,-218.81 534.79,-181.85 491.68,-156.98"/>
+<polygon fill="#79569a" stroke="#79569a" points="493.02,-154.92 485.73,-153.54 490.57,-159.16 493.02,-154.92"/>
+<text xml:space="preserve" text-anchor="middle" x="583.12" y="-187.25" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- audit -->
+<g id="node13" class="node">
+<title>audit</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="285.3" cy="-32.58" rx="139.05" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="285.3" y="-36.18" font-family="Arial" font-size="12.00" fill="white">Registrar historial administrativo</text>
+<text xml:space="preserve" text-anchor="middle" x="285.3" y="-21.78" font-family="Arial" font-size="12.00" fill="white">Confirmar transacción</text>
+</g>
+<!-- new&#45;&gt;audit -->
+<g id="edge13" class="edge">
+<title>new&#45;&gt;audit</title>
+<path fill="none" stroke="#79569a" d="M243.6,-171.69C250.75,-148.02 263.68,-105.17 273.26,-73.45"/>
+<polygon fill="#79569a" stroke="#79569a" points="275.5,-74.51 275.18,-67.1 270.81,-73.09 275.5,-74.51"/>
+</g>
+<!-- upd&#45;&gt;audit -->
+<g id="edge14" class="edge">
+<title>upd&#45;&gt;audit</title>
+<path fill="none" stroke="#79569a" d="M407.38,-105.78C388.12,-94.39 364.31,-80.31 342.84,-67.61"/>
+<polygon fill="#79569a" stroke="#79569a" points="344.24,-65.59 336.96,-64.14 341.74,-69.81 344.24,-65.59"/>
+</g>
+</g>
+</svg>

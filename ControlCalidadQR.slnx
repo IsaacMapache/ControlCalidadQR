@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ControlCalidadQR/ControlCalidadQR.csproj" />
+  <Project Path="ServidorCalidad/ServidorCalidad.csproj" />
+  <Project Path="PruebasCalidad/PruebasCalidad.csproj" />
+</Solution>
+

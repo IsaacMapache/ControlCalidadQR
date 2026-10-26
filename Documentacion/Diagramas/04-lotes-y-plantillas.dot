@@ -1,0 +1,28 @@
+digraph flujo { graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.4", ranksep="0.55", splines=polyline]; node [shape=box, style="rounded,filled", fillcolor="#F5EFFC", color="#9873BA", fontcolor="#30203D", fontname="Arial", fontsize=12, margin="0.18,0.12", penwidth=1.2]; edge [color="#79569A", fontcolor="#593080", fontname="Arial", fontsize=10, arrowsize=0.7];
+i [label="Elegir apartado",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+tipo [label="¿Lotes o plantillas?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+l [label="Buscar y consultar lotes\nIncluir archivados si se desea"];
+lp [label="¿Inspector o\nadministrador?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+lc [label="Consultar lote, QR e historial",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+le [label="Crear o editar lote\nNúmero, producto, cantidad y unidad"];
+la [label="Opcional: archivar o reactivar\nConservar Id e historial"];
+p [label="Consultar plantillas y criterios"];
+pp [label="¿Administrador?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+pc [label="Consulta de la plantilla",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+pe [label="Crear o editar plantilla\nCriterios Sí/No, Número o Texto"];
+pa [label="Definir obligatoriedad y límites\nArchivar o reactivar"];
+save [label="Guardar mediante la API\nValidar datos y versión",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+i -> tipo;
+tipo -> l [label="Lotes"];
+l -> lp;
+lp -> lc [label="No"];
+lp -> le [label="Sí"];
+le -> la;
+la -> save;
+tipo -> p [label="Plantillas"];
+p -> pp;
+pp -> pc [label="No"];
+pp -> pe [label="Sí"];
+pe -> pa;
+pa -> save;
+}

@@ -1,0 +1,182 @@
+<svg width="858pt" height="927pt"
+ viewBox="0.00 0.00 858.00 927.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 905.7)">
+<title>flujo</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-905.7 836.79,-905.7 836.79,21.6 -21.6,21.6"/>
+<!-- i -->
+<g id="node1" class="node">
+<title>i</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="301.51" cy="-861.7" rx="142.84" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="301.51" y="-858.1" font-family="Arial" font-size="12.00" fill="white">Seleccionar control en el historial</text>
+</g>
+<!-- f -->
+<g id="node2" class="node">
+<title>f</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="301.51,-798.29 184.21,-766.61 301.51,-734.93 418.81,-766.61 301.51,-798.29"/>
+<text xml:space="preserve" text-anchor="middle" x="301.51" y="-763.01" font-family="Arial" font-size="12.00" fill="#30203d">¿Está finalizado?</text>
+</g>
+<!-- i&#45;&gt;f -->
+<g id="edge1" class="edge">
+<title>i&#45;&gt;f</title>
+<path fill="none" stroke="#79569a" d="M301.51,-839.11C301.51,-829.52 301.51,-817.93 301.51,-806.89"/>
+<polygon fill="#79569a" stroke="#79569a" points="303.96,-807.12 301.51,-800.12 299.06,-807.12 303.96,-807.12"/>
+</g>
+<!-- no -->
+<g id="node3" class="node">
+<title>no</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="278.51" cy="-650.35" rx="139.53" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="278.51" y="-653.95" font-family="Arial" font-size="12.00" fill="white">No ofrecer reporte</text>
+<text xml:space="preserve" text-anchor="middle" x="278.51" y="-639.55" font-family="Arial" font-size="12.00" fill="white">Finalizar primero si corresponde</text>
+</g>
+<!-- f&#45;&gt;no -->
+<g id="edge2" class="edge">
+<title>f&#45;&gt;no</title>
+<path fill="none" stroke="#79569a" d="M295.58,-736.19C292.84,-722.57 289.55,-706.19 286.58,-691.47"/>
+<polygon fill="#79569a" stroke="#79569a" points="289.06,-691.35 285.28,-684.97 284.26,-692.32 289.06,-691.35"/>
+<text xml:space="preserve" text-anchor="middle" x="297.09" y="-705.93" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- bot -->
+<g id="node4" class="node">
+<title>bot</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M611.5,-668.35C611.5,-668.35 459.52,-668.35 459.52,-668.35 453.52,-668.35 447.52,-662.35 447.52,-656.35 447.52,-656.35 447.52,-644.35 447.52,-644.35 447.52,-638.35 453.52,-632.35 459.52,-632.35 459.52,-632.35 611.5,-632.35 611.5,-632.35 617.5,-632.35 623.5,-638.35 623.5,-644.35 623.5,-644.35 623.5,-656.35 623.5,-656.35 623.5,-662.35 617.5,-668.35 611.5,-668.35"/>
+<text xml:space="preserve" text-anchor="middle" x="535.51" y="-646.75" font-family="Arial" font-size="12.00" fill="#30203d">Pulsar Generar reporte PDF</text>
+</g>
+<!-- f&#45;&gt;bot -->
+<g id="edge3" class="edge">
+<title>f&#45;&gt;bot</title>
+<path fill="none" stroke="#79569a" d="M342.54,-745.58C384.45,-725.11 449.29,-693.45 492.06,-672.56"/>
+<polygon fill="#79569a" stroke="#79569a" points="492.95,-674.86 498.16,-669.59 490.8,-670.46 492.95,-674.86"/>
+<text xml:space="preserve" text-anchor="middle" x="431.64" y="-705.93" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- leer -->
+<g id="node5" class="node">
+<title>leer</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M616.18,-576.77C616.18,-576.77 454.83,-576.77 454.83,-576.77 448.83,-576.77 442.83,-570.77 442.83,-564.77 442.83,-564.77 442.83,-552.77 442.83,-552.77 442.83,-546.77 448.83,-540.77 454.83,-540.77 454.83,-540.77 616.18,-540.77 616.18,-540.77 622.18,-540.77 628.18,-546.77 628.18,-552.77 628.18,-552.77 628.18,-564.77 628.18,-564.77 628.18,-570.77 622.18,-576.77 616.18,-576.77"/>
+<text xml:space="preserve" text-anchor="middle" x="535.51" y="-555.17" font-family="Arial" font-size="12.00" fill="#30203d">Descargar datos autenticados</text>
+</g>
+<!-- bot&#45;&gt;leer -->
+<g id="edge4" class="edge">
+<title>bot&#45;&gt;leer</title>
+<path fill="none" stroke="#79569a" d="M535.51,-632.08C535.51,-618.9 535.51,-600.54 535.51,-585.62"/>
+<polygon fill="#79569a" stroke="#79569a" points="537.96,-585.81 535.51,-578.81 533.06,-585.81 537.96,-585.81"/>
+</g>
+<!-- ok -->
+<g id="node6" class="node">
+<title>ok</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="428.51,-499.77 258.52,-453.69 428.51,-407.61 598.49,-453.69 428.51,-499.77"/>
+<text xml:space="preserve" text-anchor="middle" x="428.51" y="-457.29" font-family="Arial" font-size="12.00" fill="#30203d">¿Lectura correcta y existen</text>
+<text xml:space="preserve" text-anchor="middle" x="428.51" y="-442.89" font-family="Arial" font-size="12.00" fill="#30203d">el control y su lote?</text>
+</g>
+<!-- leer&#45;&gt;ok -->
+<g id="edge5" class="edge">
+<title>leer&#45;&gt;ok</title>
+<path fill="none" stroke="#79569a" d="M517.36,-540.28C504.72,-528.11 487.32,-511.34 471.26,-495.87"/>
+<polygon fill="#79569a" stroke="#79569a" points="473.25,-494.39 466.51,-491.29 469.85,-497.92 473.25,-494.39"/>
+</g>
+<!-- error -->
+<g id="node7" class="node">
+<title>error</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M700.83,-257.53C700.83,-257.53 528.18,-257.53 528.18,-257.53 522.18,-257.53 516.18,-251.53 516.18,-245.53 516.18,-245.53 516.18,-233.53 516.18,-233.53 516.18,-227.53 522.18,-221.53 528.18,-221.53 528.18,-221.53 700.83,-221.53 700.83,-221.53 706.83,-221.53 712.83,-227.53 712.83,-233.53 712.83,-233.53 712.83,-245.53 712.83,-245.53 712.83,-251.53 706.83,-257.53 700.83,-257.53"/>
+<text xml:space="preserve" text-anchor="middle" x="614.51" y="-235.93" font-family="Arial" font-size="12.00" fill="#30203d">Mostrar error y botón Reintentar</text>
+</g>
+<!-- ok&#45;&gt;error -->
+<g id="edge6" class="edge">
+<title>ok&#45;&gt;error</title>
+<path fill="none" stroke="#79569a" d="M468.67,-418.19C501.15,-390.28 541.51,-355.61 541.51,-355.61 541.51,-355.61 577.67,-298.6 599.09,-264.83"/>
+<polygon fill="#79569a" stroke="#79569a" points="600.93,-266.51 602.61,-259.28 596.79,-263.88 600.93,-266.51"/>
+<text xml:space="preserve" text-anchor="middle" x="575.95" y="-329.57" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- gen -->
+<g id="node8" class="node">
+<title>gen</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M515.17,-355.61C515.17,-355.61 337.85,-355.61 337.85,-355.61 331.85,-355.61 325.85,-349.61 325.85,-343.61 325.85,-343.61 325.85,-321.53 325.85,-321.53 325.85,-315.53 331.85,-309.53 337.85,-309.53 337.85,-309.53 515.17,-309.53 515.17,-309.53 521.17,-309.53 527.17,-315.53 527.17,-321.53 527.17,-321.53 527.17,-343.61 527.17,-343.61 527.17,-349.61 521.17,-355.61 515.17,-355.61"/>
+<text xml:space="preserve" text-anchor="middle" x="426.51" y="-336.17" font-family="Arial" font-size="12.00" fill="#30203d">Generar PDF en el dispositivo</text>
+<text xml:space="preserve" text-anchor="middle" x="426.51" y="-321.77" font-family="Arial" font-size="12.00" fill="#30203d">Resultado, criterios, fechas y QR</text>
+</g>
+<!-- ok&#45;&gt;gen -->
+<g id="edge8" class="edge">
+<title>ok&#45;&gt;gen</title>
+<path fill="none" stroke="#79569a" d="M427.75,-407.31C427.51,-392.97 427.24,-377.45 427.03,-364.38"/>
+<polygon fill="#79569a" stroke="#79569a" points="429.48,-364.64 426.91,-357.68 424.58,-364.72 429.48,-364.64"/>
+<text xml:space="preserve" text-anchor="middle" x="433.5" y="-378.61" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- error&#45;&gt;leer -->
+<g id="edge7" class="edge">
+<title>error&#45;&gt;leer</title>
+<path fill="none" stroke="#79569a" d="M614.37,-257.94C613.93,-316.06 612.51,-499.77 612.51,-499.77 612.51,-499.77 586.87,-519.08 565.18,-535.42"/>
+<polygon fill="#79569a" stroke="#79569a" points="563.94,-533.29 559.82,-539.45 566.88,-537.2 563.94,-533.29"/>
+<text xml:space="preserve" text-anchor="middle" x="636.53" y="-378.61" font-family="Arial" font-size="10.00" fill="#593080">Reintentar</text>
+</g>
+<!-- gen&#45;&gt;error -->
+<g id="edge10" class="edge">
+<title>gen&#45;&gt;error</title>
+<path fill="none" stroke="#79569a" d="M454.52,-308.96C472.87,-294.15 493.48,-277.53 493.48,-277.53 493.48,-277.53 520.57,-269.25 549.11,-260.52"/>
+<polygon fill="#79569a" stroke="#79569a" points="549.76,-262.88 555.74,-258.49 548.33,-258.2 549.76,-262.88"/>
+<text xml:space="preserve" text-anchor="middle" x="528.49" y="-280.53" font-family="Arial" font-size="10.00" fill="#593080">Error al generar</text>
+</g>
+<!-- cache -->
+<g id="node9" class="node">
+<title>cache</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M475.52,-257.53C475.52,-257.53 295.5,-257.53 295.5,-257.53 289.5,-257.53 283.5,-251.53 283.5,-245.53 283.5,-245.53 283.5,-233.53 283.5,-233.53 283.5,-227.53 289.5,-221.53 295.5,-221.53 295.5,-221.53 475.52,-221.53 475.52,-221.53 481.52,-221.53 487.52,-227.53 487.52,-233.53 487.52,-233.53 487.52,-245.53 487.52,-245.53 487.52,-251.53 481.52,-257.53 475.52,-257.53"/>
+<text xml:space="preserve" text-anchor="middle" x="385.51" y="-235.93" font-family="Arial" font-size="12.00" fill="#30203d">Guardar copia temporal en caché</text>
+</g>
+<!-- gen&#45;&gt;cache -->
+<g id="edge9" class="edge">
+<title>gen&#45;&gt;cache</title>
+<path fill="none" stroke="#79569a" d="M416.37,-309.06C410.43,-295.86 402.9,-279.15 396.77,-265.53"/>
+<polygon fill="#79569a" stroke="#79569a" points="399.07,-264.68 393.96,-259.3 394.6,-266.69 399.07,-264.68"/>
+</g>
+<!-- accion -->
+<g id="node10" class="node">
+<title>accion</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="385.51,-180.53 254.19,-148.85 385.51,-117.17 516.83,-148.85 385.51,-180.53"/>
+<text xml:space="preserve" text-anchor="middle" x="385.51" y="-145.25" font-family="Arial" font-size="12.00" fill="#30203d">¿Qué desea hacer?</text>
+</g>
+<!-- cache&#45;&gt;accion -->
+<g id="edge11" class="edge">
+<title>cache&#45;&gt;accion</title>
+<path fill="none" stroke="#79569a" d="M385.51,-221.01C385.51,-211.92 385.51,-200.42 385.51,-189.33"/>
+<polygon fill="#79569a" stroke="#79569a" points="387.96,-189.49 385.51,-182.49 383.06,-189.49 387.96,-189.49"/>
+</g>
+<!-- abrir -->
+<g id="node11" class="node">
+<title>abrir</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="106.51" cy="-32.58" rx="106.51" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="106.51" y="-36.18" font-family="Arial" font-size="12.00" fill="white">Abrir en lector PDF</text>
+<text xml:space="preserve" text-anchor="middle" x="106.51" y="-21.78" font-family="Arial" font-size="12.00" fill="white">Imprimir desde el lector</text>
+</g>
+<!-- accion&#45;&gt;abrir -->
+<g id="edge12" class="edge">
+<title>accion&#45;&gt;abrir</title>
+<path fill="none" stroke="#79569a" d="M337.55,-128.2C293.38,-110.12 227.31,-83.06 177.12,-62.5"/>
+<polygon fill="#79569a" stroke="#79569a" points="178.33,-60.35 170.92,-59.96 176.47,-64.88 178.33,-60.35"/>
+<text xml:space="preserve" text-anchor="middle" x="286.87" y="-88.17" font-family="Arial" font-size="10.00" fill="#593080">Abrir / imprimir</text>
+</g>
+<!-- guardar -->
+<g id="node12" class="node">
+<title>guardar</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="385.51" cy="-32.58" rx="143.31" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="385.51" y="-28.98" font-family="Arial" font-size="12.00" fill="white">Guardar con selector de archivos</text>
+</g>
+<!-- accion&#45;&gt;guardar -->
+<g id="edge13" class="edge">
+<title>accion&#45;&gt;guardar</title>
+<path fill="none" stroke="#79569a" d="M385.51,-116.62C385.51,-100.08 385.51,-79.86 385.51,-63.52"/>
+<polygon fill="#79569a" stroke="#79569a" points="387.96,-63.87 385.51,-56.87 383.06,-63.87 387.96,-63.87"/>
+<text xml:space="preserve" text-anchor="middle" x="403.85" y="-88.17" font-family="Arial" font-size="10.00" fill="#593080">Guardar</text>
+</g>
+<!-- comp -->
+<g id="node13" class="node">
+<title>comp</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="686.51" cy="-32.58" rx="128.68" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="686.51" y="-28.98" font-family="Arial" font-size="12.00" fill="white">Compartir con otra aplicación</text>
+</g>
+<!-- accion&#45;&gt;comp -->
+<g id="edge14" class="edge">
+<title>accion&#45;&gt;comp</title>
+<path fill="none" stroke="#79569a" d="M435.89,-128.72C488.32,-108.82 570.41,-77.66 626.24,-56.46"/>
+<polygon fill="#79569a" stroke="#79569a" points="626.85,-58.85 632.52,-54.08 625.11,-54.27 626.85,-58.85"/>
+<text xml:space="preserve" text-anchor="middle" x="566.98" y="-88.17" font-family="Arial" font-size="10.00" fill="#593080">Compartir</text>
+</g>
+</g>
+</svg>

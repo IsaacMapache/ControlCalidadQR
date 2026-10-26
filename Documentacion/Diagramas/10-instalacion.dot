@@ -1,0 +1,26 @@
+digraph flujo { graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.4", ranksep="0.55", splines=polyline]; node [shape=box, style="rounded,filled", fillcolor="#F5EFFC", color="#9873BA", fontcolor="#30203D", fontname="Arial", fontsize=12, margin="0.18,0.12", penwidth=1.2]; edge [color="#79569A", fontcolor="#593080", fontname="Arial", fontsize=10, arrowsize=0.7];
+i [label="Preparar equipo servidor",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+sql [label="Configurar instancia SQL\ny cadena de conexión"];
+init [label="Ejecutar --inicializar\nCrear o actualizar esquema"];
+cuenta [label="Crear cuenta si falta\nAsignar administrador por consola"];
+migrar [label="¿Hay registros locales\nque importar?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+export [label="Exportar datos anteriores\ndesde el dispositivo"];
+vacia [label="¿Base central apta\npara la importación?",shape=diamond,style=filled,fillcolor="#E8D9F6"];
+rech [label="Detener importación\nRevisar datos y respaldos",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+imp [label="Ejecutar --importar archivo\nValidar y conservar identificadores"];
+api [label="Iniciar API\nUsar HTTPS fuera de desarrollo"];
+cliente [label="Configurar dirección en la app\nIniciar sesión y comprobar roles"];
+op [label="Operar con API y SQL activos\nMantener respaldos de la base",shape=oval,fillcolor="#7040AD",fontcolor="white",color="#7040AD"];
+i -> sql;
+sql -> init;
+init -> cuenta;
+cuenta -> migrar;
+migrar -> export [label="Sí"];
+export -> vacia;
+vacia -> rech [label="No"];
+vacia -> imp [label="Sí"];
+imp -> api;
+migrar -> api [label="No"];
+api -> cliente;
+cliente -> op;
+}

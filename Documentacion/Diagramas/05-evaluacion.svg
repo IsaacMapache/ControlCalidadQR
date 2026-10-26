@@ -1,0 +1,223 @@
+<svg width="942pt" height="1103pt"
+ viewBox="0.00 0.00 942.00 1103.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 1081.21)">
+<title>flujo</title>
+<polygon fill="white" stroke="none" points="-21.6,21.6 -21.6,-1081.21 919.95,-1081.21 919.95,21.6 -21.6,21.6"/>
+<!-- i -->
+<g id="node1" class="node">
+<title>i</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="785.69" cy="-1037.21" rx="112.66" ry="22.4"/>
+<text xml:space="preserve" text-anchor="middle" x="785.69" y="-1033.61" font-family="Arial" font-size="12.00" fill="white">Nuevo control autorizado</text>
+</g>
+<!-- sel -->
+<g id="node2" class="node">
+<title>sel</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M874.69,-973.81C874.69,-973.81 696.69,-973.81 696.69,-973.81 690.69,-973.81 684.69,-967.81 684.69,-961.81 684.69,-961.81 684.69,-949.81 684.69,-949.81 684.69,-943.81 690.69,-937.81 696.69,-937.81 696.69,-937.81 874.69,-937.81 874.69,-937.81 880.69,-937.81 886.69,-943.81 886.69,-949.81 886.69,-949.81 886.69,-961.81 886.69,-961.81 886.69,-967.81 880.69,-973.81 874.69,-973.81"/>
+<text xml:space="preserve" text-anchor="middle" x="785.69" y="-952.21" font-family="Arial" font-size="12.00" fill="#30203d">Elegir lote activo y plantilla activa</text>
+</g>
+<!-- i&#45;&gt;sel -->
+<g id="edge1" class="edge">
+<title>i&#45;&gt;sel</title>
+<path fill="none" stroke="#79569a" d="M785.69,-1014.51C785.69,-1004.61 785.69,-992.81 785.69,-982.48"/>
+<polygon fill="#79569a" stroke="#79569a" points="788.14,-982.72 785.69,-975.72 783.24,-982.72 788.14,-982.72"/>
+</g>
+<!-- snap -->
+<g id="node3" class="node">
+<title>snap</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M883.02,-896.81C883.02,-896.81 688.36,-896.81 688.36,-896.81 682.36,-896.81 676.36,-890.81 676.36,-884.81 676.36,-884.81 676.36,-872.81 676.36,-872.81 676.36,-866.81 682.36,-860.81 688.36,-860.81 688.36,-860.81 883.02,-860.81 883.02,-860.81 889.02,-860.81 895.02,-866.81 895.02,-872.81 895.02,-872.81 895.02,-884.81 895.02,-884.81 895.02,-890.81 889.02,-896.81 883.02,-896.81"/>
+<text xml:space="preserve" text-anchor="middle" x="785.69" y="-875.21" font-family="Arial" font-size="12.00" fill="#30203d">Copiar criterios y versión de plantilla</text>
+</g>
+<!-- sel&#45;&gt;snap -->
+<g id="edge2" class="edge">
+<title>sel&#45;&gt;snap</title>
+<path fill="none" stroke="#79569a" d="M785.69,-937.41C785.69,-928.01 785.69,-916.22 785.69,-905.76"/>
+<polygon fill="#79569a" stroke="#79569a" points="788.14,-905.88 785.69,-898.88 783.24,-905.88 788.14,-905.88"/>
+</g>
+<!-- resp -->
+<g id="node4" class="node">
+<title>resp</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M886.03,-819.81C886.03,-819.81 685.35,-819.81 685.35,-819.81 679.35,-819.81 673.35,-813.81 673.35,-807.81 673.35,-807.81 673.35,-795.81 673.35,-795.81 673.35,-789.81 679.35,-783.81 685.35,-783.81 685.35,-783.81 886.03,-783.81 886.03,-783.81 892.03,-783.81 898.03,-789.81 898.03,-795.81 898.03,-795.81 898.03,-807.81 898.03,-807.81 898.03,-813.81 892.03,-819.81 886.03,-819.81"/>
+<text xml:space="preserve" text-anchor="middle" x="785.69" y="-798.21" font-family="Arial" font-size="12.00" fill="#30203d">Capturar respuestas y observaciones</text>
+</g>
+<!-- snap&#45;&gt;resp -->
+<g id="edge3" class="edge">
+<title>snap&#45;&gt;resp</title>
+<path fill="none" stroke="#79569a" d="M785.69,-860.41C785.69,-851.01 785.69,-839.22 785.69,-828.76"/>
+<polygon fill="#79569a" stroke="#79569a" points="788.14,-828.88 785.69,-821.88 783.24,-828.88 788.14,-828.88"/>
+</g>
+<!-- accion -->
+<g id="node5" class="node">
+<title>accion</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="659.69,-742.81 534.39,-696.73 659.69,-650.65 784.99,-696.73 659.69,-742.81"/>
+<text xml:space="preserve" text-anchor="middle" x="659.69" y="-700.33" font-family="Arial" font-size="12.00" fill="#30203d">¿Guardar borrador</text>
+<text xml:space="preserve" text-anchor="middle" x="659.69" y="-685.93" font-family="Arial" font-size="12.00" fill="#30203d">o finalizar?</text>
+</g>
+<!-- resp&#45;&gt;accion -->
+<g id="edge4" class="edge">
+<title>resp&#45;&gt;accion</title>
+<path fill="none" stroke="#79569a" d="M764.32,-783.32C747.97,-769.95 724.86,-751.04 704.51,-734.4"/>
+<polygon fill="#79569a" stroke="#79569a" points="706.16,-732.58 699.19,-730.04 703.05,-736.37 706.16,-732.58"/>
+</g>
+<!-- bor -->
+<g id="node6" class="node">
+<title>bor</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="659.69,-598.65 450.35,-552.57 659.69,-506.49 869.03,-552.57 659.69,-598.65"/>
+<text xml:space="preserve" text-anchor="middle" x="659.69" y="-556.17" font-family="Arial" font-size="12.00" fill="#30203d">¿Formatos de respuestas válidos?</text>
+<text xml:space="preserve" text-anchor="middle" x="659.69" y="-541.77" font-family="Arial" font-size="12.00" fill="#30203d">Se permiten obligatorias vacías</text>
+</g>
+<!-- accion&#45;&gt;bor -->
+<g id="edge5" class="edge">
+<title>accion&#45;&gt;bor</title>
+<path fill="none" stroke="#79569a" d="M659.69,-650.36C659.69,-636.63 659.69,-621.44 659.69,-607.23"/>
+<polygon fill="#79569a" stroke="#79569a" points="662.14,-607.51 659.69,-600.51 657.24,-607.51 662.14,-607.51"/>
+<text xml:space="preserve" text-anchor="middle" x="679.14" y="-621.65" font-family="Arial" font-size="10.00" fill="#593080">Borrador</text>
+</g>
+<!-- completo -->
+<g id="node8" class="node">
+<title>completo</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="210.69,-598.65 0,-552.57 210.69,-506.49 421.38,-552.57 210.69,-598.65"/>
+<text xml:space="preserve" text-anchor="middle" x="210.69" y="-556.17" font-family="Arial" font-size="12.00" fill="#30203d">¿Obligatorias completas, formatos</text>
+<text xml:space="preserve" text-anchor="middle" x="210.69" y="-541.77" font-family="Arial" font-size="12.00" fill="#30203d">válidos y al menos una respuesta?</text>
+</g>
+<!-- accion&#45;&gt;completo -->
+<g id="edge8" class="edge">
+<title>accion&#45;&gt;completo</title>
+<path fill="none" stroke="#79569a" d="M592.95,-674.6C516.32,-650.33 390.09,-610.37 303.81,-583.05"/>
+<polygon fill="#79569a" stroke="#79569a" points="304.7,-580.76 297.29,-580.98 303.22,-585.43 304.7,-580.76"/>
+<text xml:space="preserve" text-anchor="middle" x="467.55" y="-621.65" font-family="Arial" font-size="10.00" fill="#593080">Finalizar</text>
+</g>
+<!-- gb -->
+<g id="node7" class="node">
+<title>gb</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="758.69" cy="-408.41" rx="122.09" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="758.69" y="-412.01" font-family="Arial" font-size="12.00" fill="white">Guardar resultado Borrador</text>
+<text xml:space="preserve" text-anchor="middle" x="758.69" y="-397.61" font-family="Arial" font-size="12.00" fill="white">Continuar después</text>
+</g>
+<!-- bor&#45;&gt;gb -->
+<g id="edge6" class="edge">
+<title>bor&#45;&gt;gb</title>
+<path fill="none" stroke="#79569a" d="M687.27,-511.97C701.29,-491.83 718.25,-467.47 732.13,-447.54"/>
+<polygon fill="#79569a" stroke="#79569a" points="734.05,-449.08 736.04,-441.94 730.02,-446.28 734.05,-449.08"/>
+<text xml:space="preserve" text-anchor="middle" x="750.22" y="-477.49" font-family="Arial" font-size="10.00" fill="#593080">Formatos válidos</text>
+</g>
+<!-- corregir -->
+<g id="node9" class="node">
+<title>corregir</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M595.34,-431.45C595.34,-431.45 488.04,-431.45 488.04,-431.45 482.04,-431.45 476.04,-425.45 476.04,-419.45 476.04,-419.45 476.04,-397.37 476.04,-397.37 476.04,-391.37 482.04,-385.37 488.04,-385.37 488.04,-385.37 595.34,-385.37 595.34,-385.37 601.34,-385.37 607.34,-391.37 607.34,-397.37 607.34,-397.37 607.34,-419.45 607.34,-419.45 607.34,-425.45 601.34,-431.45 595.34,-431.45"/>
+<text xml:space="preserve" text-anchor="middle" x="541.69" y="-412.01" font-family="Arial" font-size="12.00" fill="#30203d">Mostrar error</text>
+<text xml:space="preserve" text-anchor="middle" x="541.69" y="-397.61" font-family="Arial" font-size="12.00" fill="#30203d">Corregir respuestas</text>
+</g>
+<!-- bor&#45;&gt;corregir -->
+<g id="edge7" class="edge">
+<title>bor&#45;&gt;corregir</title>
+<path fill="none" stroke="#79569a" d="M627.76,-513.1C608.21,-489.55 583.6,-459.9 565.71,-438.35"/>
+<polygon fill="#79569a" stroke="#79569a" points="567.71,-436.92 561.36,-433.1 563.94,-440.05 567.71,-436.92"/>
+<text xml:space="preserve" text-anchor="middle" x="641.19" y="-477.49" font-family="Arial" font-size="10.00" fill="#593080">Formato inválido</text>
+</g>
+<!-- completo&#45;&gt;corregir -->
+<g id="edge9" class="edge">
+<title>completo&#45;&gt;corregir</title>
+<path fill="none" stroke="#79569a" d="M280.89,-521.42C340.43,-495.85 424.93,-459.55 481.44,-435.28"/>
+<polygon fill="#79569a" stroke="#79569a" points="482.37,-437.55 487.83,-432.54 480.44,-433.05 482.37,-437.55"/>
+<text xml:space="preserve" text-anchor="middle" x="392.51" y="-477.49" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- inc -->
+<g id="node10" class="node">
+<title>inc</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="210.69,-454.49 32.7,-408.41 210.69,-362.33 388.68,-408.41 210.69,-454.49"/>
+<text xml:space="preserve" text-anchor="middle" x="210.69" y="-412.01" font-family="Arial" font-size="12.00" fill="#30203d">¿Algún No cumple o número</text>
+<text xml:space="preserve" text-anchor="middle" x="210.69" y="-397.61" font-family="Arial" font-size="12.00" fill="#30203d">fuera de sus límites?</text>
+</g>
+<!-- completo&#45;&gt;inc -->
+<g id="edge11" class="edge">
+<title>completo&#45;&gt;inc</title>
+<path fill="none" stroke="#79569a" d="M210.69,-506.2C210.69,-492.47 210.69,-477.28 210.69,-463.07"/>
+<polygon fill="#79569a" stroke="#79569a" points="213.14,-463.35 210.69,-456.35 208.24,-463.35 213.14,-463.35"/>
+<text xml:space="preserve" text-anchor="middle" x="216.8" y="-477.49" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- corregir&#45;&gt;resp -->
+<g id="edge10" class="edge">
+<title>corregir&#45;&gt;resp</title>
+<path fill="none" stroke="#79569a" d="M581.69,-431.95C601.69,-443.22 621.69,-454.49 621.69,-454.49 621.69,-454.49 795.69,-474.49 795.69,-474.49 795.69,-474.49 883.69,-506.49 883.69,-506.49 883.69,-506.49 883.69,-598.65 883.69,-598.65 883.69,-598.65 824.07,-721.64 797.83,-775.76"/>
+<polygon fill="#79569a" stroke="#79569a" points="795.72,-774.49 794.88,-781.86 800.13,-776.63 795.72,-774.49"/>
+</g>
+<!-- rech -->
+<g id="node11" class="node">
+<title>rech</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M247.69,-198.17C247.69,-198.17 127.69,-198.17 127.69,-198.17 121.69,-198.17 115.69,-192.17 115.69,-186.17 115.69,-186.17 115.69,-174.17 115.69,-174.17 115.69,-168.17 121.69,-162.17 127.69,-162.17 127.69,-162.17 247.69,-162.17 247.69,-162.17 253.69,-162.17 259.69,-168.17 259.69,-174.17 259.69,-174.17 259.69,-186.17 259.69,-186.17 259.69,-192.17 253.69,-198.17 247.69,-198.17"/>
+<text xml:space="preserve" text-anchor="middle" x="187.69" y="-176.57" font-family="Arial" font-size="12.00" fill="#30203d">Resultado Rechazado</text>
+</g>
+<!-- inc&#45;&gt;rech -->
+<g id="edge12" class="edge">
+<title>inc&#45;&gt;rech</title>
+<path fill="none" stroke="#79569a" d="M206.17,-362.98C201.43,-316.32 194.14,-244.57 190.28,-206.66"/>
+<polygon fill="#79569a" stroke="#79569a" points="192.77,-206.89 189.62,-200.17 187.89,-207.39 192.77,-206.89"/>
+<text xml:space="preserve" text-anchor="middle" x="210.1" y="-333.33" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- eval -->
+<g id="node12" class="node">
+<title>eval</title>
+<polygon fill="#e8d9f6" stroke="#9873ba" stroke-width="1.2" points="347.69,-310.33 231.73,-264.25 347.69,-218.17 463.65,-264.25 347.69,-310.33"/>
+<text xml:space="preserve" text-anchor="middle" x="347.69" y="-267.85" font-family="Arial" font-size="12.00" fill="#30203d">¿Hay respuestas</text>
+<text xml:space="preserve" text-anchor="middle" x="347.69" y="-253.45" font-family="Arial" font-size="12.00" fill="#30203d">evaluables?</text>
+</g>
+<!-- inc&#45;&gt;eval -->
+<g id="edge13" class="edge">
+<title>inc&#45;&gt;eval</title>
+<path fill="none" stroke="#79569a" d="M245.61,-371.17C265.39,-350.65 290.11,-324.99 310.28,-304.07"/>
+<polygon fill="#79569a" stroke="#79569a" points="311.96,-305.85 315.06,-299.11 308.44,-302.45 311.96,-305.85"/>
+<text xml:space="preserve" text-anchor="middle" x="289.69" y="-333.33" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- fin -->
+<g id="node15" class="node">
+<title>fin</title>
+<ellipse fill="#7040ad" stroke="#7040ad" stroke-width="1.2" cx="302.69" cy="-32.58" rx="163.59" ry="32.58"/>
+<text xml:space="preserve" text-anchor="middle" x="302.69" y="-36.18" font-family="Arial" font-size="12.00" fill="white">Guardar control finalizado</text>
+<text xml:space="preserve" text-anchor="middle" x="302.69" y="-21.78" font-family="Arial" font-size="12.00" fill="white">Fecha, responsable, versión e historial</text>
+</g>
+<!-- rech&#45;&gt;fin -->
+<g id="edge16" class="edge">
+<title>rech&#45;&gt;fin</title>
+<path fill="none" stroke="#79569a" d="M194.8,-161.87C203.67,-140.28 217.69,-106.17 217.69,-106.17 217.69,-106.17 238.75,-88.18 259.9,-70.12"/>
+<polygon fill="#79569a" stroke="#79569a" points="261.27,-72.18 265,-65.77 258.08,-68.45 261.27,-72.18"/>
+</g>
+<!-- ap -->
+<g id="node13" class="node">
+<title>ap</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M525.36,-142.17C525.36,-142.17 414.02,-142.17 414.02,-142.17 408.02,-142.17 402.02,-136.17 402.02,-130.17 402.02,-130.17 402.02,-118.17 402.02,-118.17 402.02,-112.17 408.02,-106.17 414.02,-106.17 414.02,-106.17 525.36,-106.17 525.36,-106.17 531.36,-106.17 537.36,-112.17 537.36,-118.17 537.36,-118.17 537.36,-130.17 537.36,-130.17 537.36,-136.17 531.36,-142.17 525.36,-142.17"/>
+<text xml:space="preserve" text-anchor="middle" x="469.69" y="-120.57" font-family="Arial" font-size="12.00" fill="#30203d">Resultado Aprobado</text>
+</g>
+<!-- eval&#45;&gt;ap -->
+<g id="edge14" class="edge">
+<title>eval&#45;&gt;ap</title>
+<path fill="none" stroke="#79569a" d="M377.53,-229.47C399.62,-204.47 429.16,-171.04 448.77,-148.84"/>
+<polygon fill="#79569a" stroke="#79569a" points="450.47,-150.62 453.27,-143.75 446.8,-147.37 450.47,-150.62"/>
+<text xml:space="preserve" text-anchor="middle" x="443.08" y="-177.17" font-family="Arial" font-size="10.00" fill="#593080">Sí</text>
+</g>
+<!-- reg -->
+<g id="node14" class="node">
+<title>reg</title>
+<path fill="#f5effc" stroke="#9873ba" stroke-width="1.2" d="M361.35,-142.17C361.35,-142.17 244.03,-142.17 244.03,-142.17 238.03,-142.17 232.03,-136.17 232.03,-130.17 232.03,-130.17 232.03,-118.17 232.03,-118.17 232.03,-112.17 238.03,-106.17 244.03,-106.17 244.03,-106.17 361.35,-106.17 361.35,-106.17 367.35,-106.17 373.35,-112.17 373.35,-118.17 373.35,-118.17 373.35,-130.17 373.35,-130.17 373.35,-136.17 367.35,-142.17 361.35,-142.17"/>
+<text xml:space="preserve" text-anchor="middle" x="302.69" y="-120.57" font-family="Arial" font-size="12.00" fill="#30203d">Resultado Registrado</text>
+</g>
+<!-- eval&#45;&gt;reg -->
+<g id="edge15" class="edge">
+<title>eval&#45;&gt;reg</title>
+<path fill="none" stroke="#79569a" d="M334.55,-222.94C326.94,-199.57 317.58,-170.86 310.98,-150.61"/>
+<polygon fill="#79569a" stroke="#79569a" points="313.39,-150.1 308.89,-144.2 308.73,-151.61 313.39,-150.1"/>
+<text xml:space="preserve" text-anchor="middle" x="331.58" y="-177.17" font-family="Arial" font-size="10.00" fill="#593080">No</text>
+</g>
+<!-- ap&#45;&gt;fin -->
+<g id="edge17" class="edge">
+<title>ap&#45;&gt;fin</title>
+<path fill="none" stroke="#79569a" d="M437.09,-105.68C416.96,-94.88 390.45,-80.66 366.3,-67.71"/>
+<polygon fill="#79569a" stroke="#79569a" points="367.55,-65.6 360.22,-64.45 365.23,-69.91 367.55,-65.6"/>
+</g>
+<!-- reg&#45;&gt;fin -->
+<g id="edge18" class="edge">
+<title>reg&#45;&gt;fin</title>
+<path fill="none" stroke="#79569a" d="M302.69,-105.89C302.69,-96.82 302.69,-85.28 302.69,-74.1"/>
+<polygon fill="#79569a" stroke="#79569a" points="305.14,-74.19 302.69,-67.19 300.24,-74.19 305.14,-74.19"/>
+</g>
+</g>
+</svg>
